@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    /* background-color:rgb(245, 196, 204); */
+    background-image: url(https://static.toiimg.com/thumb/72294806.cms?width=680&height=512&imgsize=670264);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin: 0; 
+}
+
+h2{
+    font-size: 35px;
+    color: white; 
+}
+
+/* hr{
+    height: 2px;
+    background-color: rgb(rgb(206, 137, 137), green, blue);
+    border-color: fuchsia;
+} */
+
+.top-line,.bottom-line{
+    height: 2px;
+    background-color: brown;
+    border-color: gray;
+    box-shadow: -0px 4px 15px 0px black;
+    -webkit-box-shadow: -0px 4px 15px 0px black;
+    -moz-box-shadow: -0px 9px 15px 0px
+}
+
+.top-line{
+    margin-top: 25px;
+}
+
+.bottom-line{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.tea-menu{
+    /* background-color: rgb(192, 118, 118); */
+    color: rgb(12, 12, 12);
+    background-color: rgba(199, 162, 162, 0.43);
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.established{
+    font-style: italic;
+}
+
+.tea-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    margin: auto 5px;
+}
+
+.tea-items p{
+    /* background-color: rgb(236, 134, 10); */
+    display: inline-block;
+    font-weight:400;
+    margin: 5px 0px;
+}
+
+.tea-flavor, .collections-flavor{
+    width: 75%;
+    /* background-color: pink; */
+    text-align: left;
+
+}
+
+.tea-price, .collections-price{
+    text-align: right;
+    width: 25%;
+    /* background-color: rgb(255, 0, 144); */
+}
+
+footer{
+    font-size: 14px;
+}
+
+a:link{
+    color: black;
+}
+
+/* lvha */
+
+a:visited{
+    color: white;
+}
+
+
+a:hover{
+    color: lightgrey;
+}
+
+a:active{
+    color: yellow;
+}
