@@ -24,6 +24,12 @@ h2{
     color: white; 
 }
 
+.tea-items p {
+  color: rgb(241, 204, 79);
+  font-style: oblique;
+  font-weight: bolder;
+}
+
 /* hr{
     height: 2px;
     background-color: rgb(rgb(206, 137, 137), green, blue);
